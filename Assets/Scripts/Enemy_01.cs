@@ -12,9 +12,9 @@ public class Enemy_01 : MonoBehaviour
     Vector2 direction;
     void Start()
     {
-        speed = 1;
+        speed = 2;
         player = GameObject.FindWithTag("Player");
-        max_health = 2;
+        max_health = 5;
         health = 2;
         attack = 20;
     }
